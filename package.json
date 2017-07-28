@@ -39,5 +39,15 @@
     "react-dom": "^15.4.2",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
+<<<<<<< HEAD
+=======
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "react-router-dom": "^4.1.2",
+    "react": "^15.6.1"
+
+>>>>>>> 18904d3c56898e008f0014fcf833b8b517a6f4af
   }
 }
