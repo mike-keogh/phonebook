@@ -7,6 +7,7 @@ const App = () => {
     <div>
       <Header />
       <Footer />
+      <Names path='/names/:letter' component={Names}/>
     </div>
   )
 }

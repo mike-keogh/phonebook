@@ -1,19 +1,13 @@
 const Alphabet = [
   {
-    firstame: 'Aaron',
-    lastname: 'Macdonald'
-    Address: '',
-    Phone: 022 0922 222
-  },
-  {
-    firstame: 'Ania',
-    lastname: 'Podhajska'
-    Address: '',
-    Phone: 022 0922 222
-  },
-  {
     firstame: 'Annelise',
     lastname: 'Hartono'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Aaron',
+    lastname: 'Macdonald'
     Address: '',
     Phone: 022 0922 222
   },
@@ -26,6 +20,12 @@ const Alphabet = [
   {
     firstame: 'Annah',
     lastname: 'Gerletti'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Ania',
+    lastname: 'Podhajska'
     Address: '',
     Phone: 022 0922 222
   },
