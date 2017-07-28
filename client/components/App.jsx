@@ -9,7 +9,7 @@ const App = () => {
       <Header />
       <Nav />
       <Footer />
-      <Names path='/names/:letter' component={Names}/>
+      {/* <Names path='/names/:letter' component={Names}/> */}
     </div>
   )
 }
