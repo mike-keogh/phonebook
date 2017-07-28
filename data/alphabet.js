@@ -1,43 +1,46 @@
-const Alphabet = {
-  A: [
-    {
-      firstName: 'Andrew',
-      lastName: 'Anderson'
-      Address: '',
-      Phone: 022 0922 222
-    },
-    {
-      firstName: 'Aengus',
-      lastName: 'Allanby',
-      Address: '',
-      Phone: 022 0922 222
-    },
-    Abuda: [{
-      Name: 'Arthur Abuda',
-      Address: '',
-      Phone: 022 0922 222
-    }],
-    Ali: [{
-      Name: 'Anthony Ali',
-      Address: '',
-      Phone: 022 0922 222
-    }]
-    Ayrton: [{
-      Name: 'Annelise Ayrton',
-      Address: '',
-      Phone: 022 0922 222
-    }]
-  ],
-  B: [
-    Anderson: [{
-      Name: 'Andrew Buxton',
-      Address: '',
-      Phone: 022 0922 222
-    }]
-  ]
-}
 
-obj = {
-  firstName: 'Harrison',
-  lastName: 'Symes'
-}
+const alphabet = [
+  {
+    firstame: 'Aaron',
+    lastname: 'Macdonald'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Ania',
+    lastname: 'Podhajska'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Annelise',
+    lastname: 'Hartono'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Anthony',
+    lastname: 'Martin'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Annah',
+    lastname: 'Gerletti'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Brian',
+    lastname: 'Bemis'
+    Address: '',
+    Phone: 022 0922 222
+  },
+  {
+    firstame: 'Chris',
+    lastname: 'Chou'
+    Address: '',
+    Phone: 022 0922 222
+  }
+]
+export default alphabet
