@@ -1,4 +1,5 @@
-const Alphabet = [
+
+const alphabet = [
   {
     firstame: 'Aaron',
     lastname: 'Macdonald'
@@ -42,3 +43,4 @@ const Alphabet = [
     Phone: 022 0922 222
   }
 ]
+export default alphabet
