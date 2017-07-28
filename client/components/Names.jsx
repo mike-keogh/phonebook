@@ -1,22 +1,27 @@
-// import React from 'react'
-// import names from '../../data/alphabet.js'
-// import {Link} from 'react-router-dom'
+import React from 'react'
+import alphabet from '../../data/alphabet.js'
+import {Link} from 'react-router-dom'
 
 
 export default function(props) {
   const letter = props.match.params.letter
-  var searchResults = names.filter((lastname) => {
-    return lastname.split('')[0].toLowerCase() == this.letter
-
+  //console.log(letter)
+  let person = alphabet.filter((person) => {
+    return person.lastname.split('')[0].toUpperCase() == letter
+  })
+  //console.log(person)
   return (
-    <div className="letters">
-      <h1>{letter}</h1>
+    <div className="Details">
       <ul>
-          {/* <li> {this.firstname + " " + this.lastname}</li> */}
-        })
-      </ul>
-    </div>
+         { person.map((person) => (<li>+person.firstname +` `+  person.lastname +` `+  person.address +` `+  person.phone + `</li>`)) }
 
+
+      </ul>
+      <h1></h1>
+    </div>
   )
 }
 //<Link to='/rank/:rank/:name'>{rankObject.name}</Link>
+// <ul>
+  //<li> {this.firstname + " " + this.lastname}</li>})
+// </ul>
