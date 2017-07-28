@@ -1,0 +1,25 @@
+* {
+  background-color: lightgray;
+}
+.title{
+  text-align: center;
+  color: steelblue;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.navBar {
+  min-width: 20%;
+
+}
+
+.letters {
+  min-width: 80%;
+  margin-left: 20px;
+}
+
+.footer{
+  margin-left: 30px;
+}

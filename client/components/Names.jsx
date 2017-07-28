@@ -1,9 +1,11 @@
 import React from 'react'
+
 import alphabet from '../../data/alphabet.js'
 import {Link} from 'react-router-dom'
 
 
 export default function(props) {
+
   const letter = props.match.params.letter
   //console.log(letter)
   let person = alphabet.filter((person) => {
@@ -20,8 +22,4 @@ export default function(props) {
       <h1></h1>
     </div>
   )
-}
-//<Link to='/rank/:rank/:name'>{rankObject.name}</Link>
-// <ul>
-  //<li> {this.firstname + " " + this.lastname}</li>})
-// </ul>
+ }
