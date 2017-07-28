@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <div className='navBar'>
       <ul>
-        {alphabet.toUpperCase().split('').map((letter, i) => <li><Link to={`/names/${letter}`}>{letter}</Link></li>)}
+        {alphabet.toUpperCase().split('').map((letter, i) => <li key={i}><Link to={`/names/${letter}`}>{letter}</Link></li>)}
       </ul>
     </div>
   )
