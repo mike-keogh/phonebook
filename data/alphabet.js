@@ -41,6 +41,60 @@ const alphabet = [
     lastname: 'Chou',
     address: '',
     phone: '022 0922 222'
+  },
+  {
+    firstname: 'Mike',
+    lastname: 'Keogh',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Magda',
+    lastname: 'Gierg',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Carla',
+    lastname: 'Weiss',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Tom',
+    lastname: 'Revill',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Usha',
+    lastname: 'Macdonald',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Raja',
+    lastname: 'Kumar',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Gabriel',
+    lastname: 'Canaan',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Harrison',
+    lastname: 'Symes',
+    address: '',
+    phone: '022 0922 222'
+  },
+  {
+    firstname: 'Don',
+    lastname: 'Smith',
+    address: '',
+    phone: '022 0922 222'
   }
 ]
 export default alphabet

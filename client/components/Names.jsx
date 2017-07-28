@@ -13,7 +13,8 @@ export default function(props) {
   return (
     <div className="Details">
       <ul>
-         { person.map((person) => (<li>+person.firstname +` `+  person.lastname +` `+  person.address +` `+  person.phone + `</li>`)) }
+         { person.map((person) => (
+           <li key={person.firstname} >{person.firstname} {person.lastname} {person.address} {person.phone}</li>) ) }
 
 
       </ul>
