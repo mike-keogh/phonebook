@@ -12,6 +12,7 @@ const App = () => {
       <Route component={Nav}/ ></Route>
       </Router>
       <Footer />
+      {/* <Names path='/names/:letter' component={Names}/> */}
     </div>
   )
 }
