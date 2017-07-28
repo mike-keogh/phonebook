@@ -7,16 +7,18 @@ import Names from './Names'
 
 const App = () => {
   return (
-    <div>
-      <Header />
+  <div>
+    <Header />
+    <div className='container'>
       <Router>
         <div>
         <Route path='/' component={Nav} />
         <Route path='/names/:letter' component={Names} />
       </div>
       </Router>
-      <Footer />
     </div>
+    <Footer />
+  </div>
   )
 }
 
