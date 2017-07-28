@@ -11,10 +11,11 @@ const App = () => {
     <Header />
     <div className='container'>
       <Router>
+        <div>
         <Route path='/' component={Nav} />
+        <Route path='/names/:letter' component={Names} />
+      </div>
       </Router>
-      <Names/>
-      {/* <Names path='/names/:letter' component={Names}/> */}
     </div>
     <Footer />
   </div>
