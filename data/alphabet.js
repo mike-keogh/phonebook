@@ -1,16 +1,17 @@
 const Alphabet = {
   A: [
-    Anderson: [{
-      Name: 'Andrew Anderson',
+    {
+      firstName: 'Andrew',
+      lastName: 'Anderson'
       Address: '',
       Phone: 022 0922 222
-    }],
-
-    Allanby: [{
-      Name: 'Aengus Allanby',
+    },
+    {
+      firstName: 'Aengus',
+      lastName: 'Allanby',
       Address: '',
       Phone: 022 0922 222
-    }],
+    },
     Abuda: [{
       Name: 'Arthur Abuda',
       Address: '',
@@ -34,4 +35,9 @@ const Alphabet = {
       Phone: 022 0922 222
     }]
   ]
+}
+
+obj = {
+  firstName: 'Harrison',
+  lastName: 'Symes'
 }
